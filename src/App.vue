@@ -4,9 +4,7 @@
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
   title: 'Vitesse More',
-  meta: [
-    { name: 'description', content: 'Vitesse Starter Template with various customisations' },
-  ],
+  meta: [{ name: 'description', content: 'Vitesse Starter Template with various customisations' }],
 })
 </script>
 

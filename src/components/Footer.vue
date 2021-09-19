@@ -16,11 +16,7 @@ const toggleLocales = () => {
       <mdi-human-scooter />
     </router-link>
 
-    <button
-      class="icon-btn mx-2 !outline-none"
-      :title="t('button.toggle_dark')"
-      @click="toggleDark()"
-    >
+    <button class="icon-btn mx-2 !outline-none" :title="t('button.toggle_dark')" @click="toggleDark()">
       <carbon-moon v-if="isDark" />
       <carbon-sun v-else />
     </button>
