@@ -1,5 +1,7 @@
 {
   "extends": [
-    "@antfu"
+    "@antfu/eslint-config",
+    "@vue/prettier",
+    "@vue/prettier/@typescript-eslint"
   ]
 }
