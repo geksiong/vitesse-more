@@ -8,6 +8,8 @@ title: About
   <h3>About</h3>
 </div>
 
+These are my customisations on the Vitesse starter template.
+
 [Vitesse](https://github.com/antfu/vitesse) is an opinionated [Vite](https://github.com/vitejs/vite) starter template made by [@antfu](https://github.com/antfu) for mocking apps swiftly. With **file-based routing**, **components auto importing**, **markdown support**, I18n, PWA and uses **WindiCSS** for UI.
 
 ```js
