@@ -11,7 +11,7 @@ const toggleLocales = () => {
 </script>
 
 <template>
-  <nav class="text-xl mt-6">
+  <nav class="text-3xl mt-6 bg-white" :class="{ dark: isDark }">
     <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
       <mdi-human-scooter />
     </router-link>
@@ -40,3 +40,9 @@ const toggleLocales = () => {
     </a>
   </nav>
 </template>
+
+<style scoped>
+.dark {
+  background-color: #121224;
+}
+</style>

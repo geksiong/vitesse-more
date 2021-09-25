@@ -18,11 +18,7 @@ const { t } = useI18n()
       <mdi-human-scooter class="inline-block" />
     </p>
     <p>
-      <a
-        rel="noreferrer"
-        href="https://github.com/geksiong/vitesse-more"
-        target="_blank"
-      >Vitesse More</a>
+      <a rel="noreferrer" href="https://github.com/geksiong/vitesse-more" target="_blank">Vitesse More</a>
     </p>
     <p>
       <em class="text-sm opacity-75">{{ t('intro.desc') }}</em>
